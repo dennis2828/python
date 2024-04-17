@@ -1,9 +1,13 @@
 name = "Dave"
+count = 1
 
 def greeting():
     color = "blue"
-    print(name)
+    global count
+    count+=1
+    print(count)
 
 greeting()
 
-print(color)
+
+print(count)
