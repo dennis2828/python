@@ -11,3 +11,6 @@ for item in dir(rdm):
     print(item)
 
 test.test("re")
+
+print(__name__)
+print(test.__name__)
